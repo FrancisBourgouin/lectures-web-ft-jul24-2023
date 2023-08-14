@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Box Model</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <style>
+    body {
+      font-size: 42px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    header {
+      padding: 30px;
+    }
+    section {
+      padding: 30px;
+    }
+    p {
+      margin-bottom: 50px;
+    }
+
+    /* Coffee cup: 57px */
+
+    /* A: 97px => coffee + padding x 2*/
+    /* B: 137px => coffee + padding x2 + margin x2 */
+    /* C: 107px => coffee + padding x2 + borderx2 */
+    div {
+      box-sizing: border-box;
+      /* width: 200px;
+      height: 200px; */
+
+      display: inline-block;
+      border: 5px solid brown;
+      background-color: burlywood;
+
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 30px;
+      padding-left: 30px;
+
+      padding: 20px 50px;
+      padding: 10px 70px 60px;
+      padding: 15px 20px 50px 40px;
+
+      padding: 100px;
+      padding-bottom: 20px;
+
+      margin: 20px;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Super box model!</h1>
+    </header>
+    <section>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptas dolorem
+        inventore illum, eos, iusto ad distinctio unde voluptate, officiis ex. Fugit
+        pariatur consectetur cupiditate sit fuga ratione sequi consequuntur.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptas dolorem
+        inventore illum, eos, iusto ad distinctio unde voluptate, officiis ex. Fugit
+        pariatur consectetur cupiditate sit fuga ratione sequi consequuntur.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptas dolorem
+        inventore illum, eos, iusto ad distinctio unde voluptate, officiis ex. Fugit
+        pariatur consectetur cupiditate sit fuga ratione sequi consequuntur.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptas dolorem
+        inventore illum, eos, iusto ad distinctio unde voluptate, officiis ex. Fugit
+        pariatur consectetur cupiditate sit fuga ratione sequi consequuntur.
+      </p>
+    </section>
+    <div>☕</div>
+    <div>☕</div>
+  </body>
+</html>

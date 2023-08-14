@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Flex!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <style>
+    body,
+    html {
+      margin: 0;
+    }
+    header {
+      padding: 30px;
+      height: 400px;
+      background-color: #bada55;
+
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: center;
+    }
+    article {
+      width: 800px;
+      height: 400px;
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+      border: 5px solid black;
+    }
+    article:nth-of-type(2n) {
+      flex-direction: row-reverse;
+    }
+    .image-container {
+      width: 400px;
+      height: 100%;
+      background-color: blueviolet;
+    }
+    .text-container {
+      font-size: 24px;
+      width: 400px;
+      padding: 30px;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Magical Flex!</h1>
+      <h2>Making devs happy since '12</h2>
+    </header>
+    <main>
+      <article>
+        <div class="image-container"></div>
+        <div class="text-container">
+          <h1>Some title</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat rem
+            distinctio autem delectus aut saepe quis commodi dolorem mollitia! Facere,
+            perferendis voluptatum! Et voluptatum laboriosam praesentium, aperiam sint
+            obcaecati facilis.
+          </p>
+        </div>
+      </article>
+      <article>
+        <div class="image-container"></div>
+        <div class="text-container">
+          <h1>Some title</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat rem
+            distinctio autem delectus aut saepe quis commodi dolorem mollitia! Facere,
+            perferendis voluptatum! Et voluptatum laboriosam praesentium, aperiam sint
+            obcaecati facilis.
+          </p>
+        </div>
+      </article>
+      <article>
+        <div class="image-container"></div>
+        <div class="text-container">
+          <h1>Some title</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat rem
+            distinctio autem delectus aut saepe quis commodi dolorem mollitia! Facere,
+            perferendis voluptatum! Et voluptatum laboriosam praesentium, aperiam sint
+            obcaecati facilis.
+          </p>
+        </div>
+      </article>
+      <article>
+        <div class="image-container"></div>
+        <div class="text-container">
+          <h1>Some title</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat rem
+            distinctio autem delectus aut saepe quis commodi dolorem mollitia! Facere,
+            perferendis voluptatum! Et voluptatum laboriosam praesentium, aperiam sint
+            obcaecati facilis.
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CSS Selectors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      font-size: 24px;
+      font-family: "Roboto", sans-serif;
+    }
+
+    main > h1 {
+      color: #b0b;
+    }
+    article {
+      padding: 20px;
+      margin: 100px 0;
+      background-color: burlywood;
+      background-size: contain;
+      background-image: url(https://images.unsplash.com/photo-1682686578456-69ae00b0ecbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80);
+      background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/ffd6f82c-60e2-4c97-bdc9-850e966f3ed7/pink-flowers.png);
+      box-shadow: 0 0 0px -20px #b0b;
+      transition: all 300ms linear;
+    }
+
+    article:hover {
+      box-shadow: 0 0 70px -20px #b0b;
+    }
+    article p {
+      font-size: 30px;
+      font-weight: 400;
+    }
+    article.sponsored {
+      background-color: aquamarine;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Semantics are great!</h1>
+    </header>
+    <main>
+      <h1>List of posts</h1>
+      <section>
+        <article class="sponsored">
+          <h1>Semantics again!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis
+            excepturi dicta voluptatum neque saepe ullam, numquam eveniet molestiae animi
+            laudantium, voluptates enim perferendis, repudiandae quam maiores ratione sit?
+            Labore?
+          </p>
+          <p>On: 2023/08/14</p>
+        </article>
+        <article>
+          <h1>Semantics again!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis
+            excepturi dicta voluptatum neque saepe ullam, numquam eveniet molestiae animi
+            laudantium, voluptates enim perferendis, repudiandae quam maiores ratione sit?
+            Labore?
+          </p>
+          <p>On: 2023/08/14</p>
+        </article>
+        <article>
+          <h1>Semantics again!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis
+            excepturi dicta voluptatum neque saepe ullam, numquam eveniet molestiae animi
+            laudantium, voluptates enim perferendis, repudiandae quam maiores ratione sit?
+            Labore?
+          </p>
+          <p>On: 2023/08/14</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
