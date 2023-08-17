@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        background-color: aqua;
+      }
+      section article img {
+        width: 100%;
+        height: auto;
+      }
+      section article p {
+        font-size: 1.5em;
+        font-weight: 900;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      @media screen and (min-width: 768px) {
+        section article {
+          width: 40%;
+        }
+      }
+
+      @media screen and (min-width: 1280px) {
+        section article {
+          width: 30%;
+        }
+      }
+
+      @media screen and (min-width: 1920px) {
+        section article {
+          width: 20%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <article>
+        <img src="images/20220131174506_1.jpg" alt="" />
+        <p>An image!</p>
+      </article>
+      <article>
+        <img src="images/20220131221341_1.jpg" alt="" />
+        <p>An image!</p>
+      </article>
+      <article>
+        <img src="images/20220201000857_1.jpg" alt="" />
+        <p>An image!</p>
+      </article>
+      <article>
+        <img src="images/20220202213814_1.jpg" alt="" />
+        <p>An image!</p>
+      </article>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  background-color: aqua;
+}
+section article {
+  width: 40%;
+}
+section article:hover {
+  font-size: 2em;
+  transition: all 300ms linear;
+}
+section article img {
+  width: 100%;
+  height: auto;
+}
+section article p {
+  font-size: 1.5em;
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    background-color: #bada55;
+  }
+  section article {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 300px) {
+  section {
+    background-color: orange;
+  }
+  section article {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles2.css.map */

@@ -1,0 +1,51 @@
+$primary-background-color: aqua;
+$secondary-background-color: #bada55;
+$tertiary-background-color: red;
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  background-color: $primary-background-color;
+
+  article {
+    width: 40%;
+
+    &:hover {
+      font-size: 2em;
+      transition: all 300ms linear;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    p {
+      font-size: 1.5em;
+      font-weight: 900;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    background-color: $secondary-background-color;
+
+    article {
+      width: 80%;
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  section {
+    background-color: $tertiary-background-color;
+
+    article {
+      width: 100%;
+    }
+  }
+}

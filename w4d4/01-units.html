@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Units!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      /* px, rem, em, %, cm, in */
+      /* REM => Relative(?) Root(?) Element Multiplier */
+      /* EM => Element Multiplier */
+      /* VW / VH */
+      :root {
+        font-size: 24px;
+      }
+      body {
+        font-size: 24px;
+      }
+      h1 {
+        font-size: 2em;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      h3 {
+        font-size: 1.25em;
+      }
+
+      button {
+        padding: 0.25em 0.5em;
+      }
+      article {
+        font-size: 0.4em;
+        padding: 2em;
+        margin: 2em;
+        background-color: #bada55;
+      }
+      article h1 {
+        margin: 0;
+        margin-bottom: 0.5em;
+      }
+      article p {
+        margin-bottom: 0.25em;
+      }
+      p {
+        width: 100%;
+        max-width: 80ch;
+        /* width: 800px; */
+      }
+      span {
+        display: block;
+        width: 4ch;
+      }
+      header {
+        height: 90vh;
+        background-image: url(https://images.unsplash.com/photo-1586999082783-111f08218fa7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2249&q=80);
+        background-size: cover;
+        background-position: center bottom;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>HERO TITLE OF DESTINY</h1>
+    </header>
+    <section>
+      <h1>I am an h1 title</h1>
+      <h2>I am an h2 title</h2>
+      <h3>I am an h3 title</h3>
+      <h4>I am an h4 title</h4>
+      <h5>I am an h5 title</h5>
+      <h6>I am an h6 title</h6>
+      <button>EVIL BUTTON</button>
+    </section>
+    <section>
+      <article>
+        <h1>Why do we need responsive design?</h1>
+        <span>00000</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorum
+          laboriosam sunt vitae tempora voluptate illum ipsa, quam veritatis iusto
+          temporibus libero assumenda a commodi quia, quisquam accusantium fuga enim?
+        </p>
+        <p>We want a better user experience across devices, different mediums</p>
+        <p>Mobile design => iPhone</p>
+        <p>CRT screens vs LCD screens</p>
+        <p>Designers that are used to print</p>
+        <p>Inclusive</p>
+        <button>EVIL BUTTON</button>
+        <div>
+          <span>Wiggle</span>
+          <span>Wiggle</span>
+        </div>
+      </article>
+      <article>
+        <h1>Why do we need responsive design?</h1>
+        <p>We want a better user experience across devices, different mediums</p>
+        <p>Mobile design => iPhone</p>
+        <p>CRT screens vs LCD screens</p>
+        <p>Designers that are used to print</p>
+        <p>Inclusive</p>
+      </article>
+    </section>
+  </body>
+</html>
