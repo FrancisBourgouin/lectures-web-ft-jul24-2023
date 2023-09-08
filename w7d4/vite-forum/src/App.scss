@@ -1,0 +1,72 @@
+.ReplyForm {
+  margin:1em auto;
+  width:fit-content;
+}
+.ReplyForm input{
+  width:90ch;
+  padding:1em;
+}
+.ReplyForm button{
+  padding:1em;
+  margin-left:1em;
+}
+
+.ReplyListItem:nth-of-type(2n + 1){
+  background-color:#bada55;
+  color:#000;
+}
+
+
+.ReplyListItem {
+  padding:1em;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 300px 1fr;
+  grid-template-areas:
+  "profile content"
+  "username content";
+  gap:1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.ReplyListItem .profile{
+  grid-area: profile;
+  width:300px;
+  height:300px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.ReplyListItem h2{
+  grid-area: username;
+  text-align: center;
+}
+.ReplyListItem p{
+  grid-area: content;
+}
+
+.TopicListItem header{
+  max-width:80ch;
+  text-align: center;
+}
+.TopicListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.TopicListItem .profile {
+  width:150px;
+  height:150px;
+  background-size: cover;
+  border-radius: 50%;
+  margin:0 auto;
+}
+.Header{
+  background-color: #b0b;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:2em;
+}
