@@ -25,7 +25,7 @@
 
 6. git checkout master / git checkout main (To update it)
 7. git pull
-8. git checkout -b feature/my-feature (Back to your feature)
+8. git checkout feature/my-feature (Back to your feature)
 9. git merge master / git merge main
 10. Fix conflicts if any
 11. git commit (commit the merge)
